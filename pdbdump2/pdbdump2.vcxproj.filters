@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dbgdump">
+      <UniqueIdentifier>{b9225f7d-ed30-44eb-8c59-211460b3546b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{935d367d-c9cd-4141-9d51-b8c7334eb489}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="cvconst.h">
+      <Filter>dbgdump</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgEngine.h">
+      <Filter>dbgdump</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgHelper.h">
+      <Filter>dbgdump</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgModule.h">
+      <Filter>dbgdump</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgSymbol.h">
+      <Filter>dbgdump</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgType.h">
+      <Filter>dbgdump</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlLiteHelper.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pdbdump2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgEngine.cpp">
+      <Filter>dbgdump</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgHelper.cpp">
+      <Filter>dbgdump</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgModule.cpp">
+      <Filter>dbgdump</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgSymbol.cpp">
+      <Filter>dbgdump</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgType.cpp">
+      <Filter>dbgdump</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlLiteHelper.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tstring.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
